@@ -3,13 +3,13 @@
 ## Virtual Environment & Packages
 Zur Installation der virtual environment und der benötigten packages führen Sie bitte folgende Befehle im Terminal aus:
 
-    ```BASH
-    pyenv local 3.11.9
-    python -m venv .venv
-    source .venv/bin/activate
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
+```BASH
+pyenv local 3.11.9
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 ## Daten
 
@@ -24,6 +24,6 @@ Die Ergebnisse befinden sich in folgendem Jupyter-Notebook:
 
 Zum Öffnen des Jupyter Notebooks im Browser lassen Sie bitte folgenden Befehl laufen und wählen Sie das entsprechende Notebook aus:
 
-    ```BASH
-    jupyter lab
-    ```
+```BASH
+jupyter lab
+```
